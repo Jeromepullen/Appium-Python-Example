@@ -11,6 +11,5 @@ class LoginTest(BaseTest):
         login_page.enter_password('test_password')
         login_page.tap_login_button()
         
-        # Add assertions to validate login success
         success_element = self.driver.find_element_by_accessibility_id('success_message')
         self.assertTrue(success_element.is_displayed(), "Login failed")
