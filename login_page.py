@@ -4,7 +4,7 @@ class LoginPage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.username_field_id = 'username_field'  # Replace with the appropriate element identifier
+        self.username_field_id = 'username_field'
         self.password_field_id = 'password_field'
         self.login_button_id = 'login_button'
 
